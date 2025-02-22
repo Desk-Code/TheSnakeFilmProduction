@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
               },
             ),
           )
-          ..loadRequest(Uri.parse('http://172.20.10.3:3000'));
+          ..loadRequest(Uri.parse('https://deskcode.netlify.app'));
   }
 
   @override
